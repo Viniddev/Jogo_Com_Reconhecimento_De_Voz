@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+:root{
+    --cor-Principal: #F8F6F4;
+    --cor-De-Fundo: linear-gradient(120deg, #000066,#000d6b,#001a70,#002675,#00337a,#004080,#004c85,#00598a,#00668f,#007394,#008099,#008c9e,#0099a3,#00a6a8,#00b2ad,#00bfb2,#00ccb8,#00d9bd,#00e6c2,#00f2c7,#00ffcc);
+    --fonte:'IBM Plex Mono', monospace;
+}
+.displayFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: var(--fonte);
+    background: var(--cor-De-Fundo);
+    color: var(--cor-Principal);
+}
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 2em;
+    margin-top: 25px;
+}
+#mensagem{
+    margin-top: 50px;
+}
+#btnJogarNovamente{
+    margin-top: 30px;
+    padding: 8px;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+.box{
+    border: 3px solid #F8F6F4;
+    border-radius: 30px;
+    min-height: 250px;
+    min-width: 250px;
+    font-size: 5em;
+    padding: 15px;
+    margin: 5px;
+}
+.chute > div{
+    margin: 15px;
+    font-size: 1.5em;
+}
